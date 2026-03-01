@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "autorespawn",
+  "version": "1.0.0",
+  "name": "AutoRespawn",
+  "description": "Automatically respawns, runs commands, and spams chat after death.",
+  "authors": ["AutoRespawnMod"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.autorespawn.mod.AutoRespawnMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
